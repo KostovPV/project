@@ -1,0 +1,21 @@
+.userDrop {
+    .dropdown-menu {
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        top: 22px !important;
+        border: none;
+        border-radius: 5px;
+        width: 200px;
+        padding: 10px 10px;
+
+        .dropdown-item {
+            font-size: 14px;
+            padding: 8px 16px;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: #c823332a;
+                color: #c82333;
+            }
+        }
+    }
+}
