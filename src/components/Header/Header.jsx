@@ -94,7 +94,7 @@ function Header() {
                   <span className="icon-clock-o" />
                 </span>
                 <span>
-                  Monday - Friday 10:00 - 19:30 <br /> Saturday - Sunday 10:00 - 14:00
+                  Monday - Friday 10:00AM - 19:30 <br /> Saturday - Sunday 10:00 - 14:00
                 </span>
               </div>
             </div>
@@ -121,8 +121,8 @@ function Header() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact" className="nav-link">
-                    Contact
+                  <NavLink to="/findus" className="nav-link">
+                    Find us
                   </NavLink>
                 </li>
                 {user && (

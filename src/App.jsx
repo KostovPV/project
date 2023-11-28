@@ -5,6 +5,7 @@ import { useAuthContext } from "./hooks/useAuthContext";
 // import all page
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
+import FindUs from "./pages/FindUs/FindUs";
 import Create from "./pages/Create/Creat";
 import Details from "./pages/Details/Details";
 import Edit from "./pages/Edit/Edit";
@@ -37,7 +38,7 @@ function App() {
                   <Route path="/about" element={<About />}></Route>
                   <Route path="/packages" element={<Packages />}></Route>
                   <Route path="/prices" element={<Prices />}></Route>
-                  <Route path="/contact" element={<About />}></Route>
+                  <Route path="/findus" element={<FindUs />}></Route>
                   <Route path="/profile" element={<Profile />}></Route>
                   <Route path="/create" element={<Create />}></Route>
                   <Route path="/list" element={<List />}></Route>
